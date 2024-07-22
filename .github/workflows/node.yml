@@ -15,4 +15,5 @@ jobs:
         with:
           node-version: "20"
       - run: npm install
+      - run: npx cross-env echo "cross-env is working"
       - run: npm run deploy
